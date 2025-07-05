@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-white text-gray-800 dark:bg-black dark:text-white">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santhosh | AI & Data Science Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</head>
+<body class="font-sans transition duration-500">
+
+  <header class="text-center py-10 bg-gray-100 dark:bg-gray-900 shadow">
+    <button onclick="toggleDarkMode()" class="absolute top-4 right-4 bg-gray-300 dark:bg-gray-700 px-4 py-2 rounded">Toggle Dark Mode</button>
+    <h1 class="text-5xl font-bold">Hi, I'm Santhosh</h1>
+    <p class="text-lg mt-2">AI Engineer | Data Scientist | Startup Enthusiast</p>
+  </header>
+
+  <main class="px-6 md:px-20 py-10">
+    <section id="projects" class="mb-16">
+      <h2 class="text-3xl font-semibold mb-6" data-aos="fade-up">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="border rounded-lg p-4 shadow hover:shadow-lg transition duration-300" data-aos="zoom-in">
+          <h3 class="text-xl font-bold mb-2">Project Title</h3>
+          <p class="text-sm">Short description of the project goes here.</p>
+          <a href="#" class="text-blue-500 mt-2 inline-block">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="mb-16">
+      <h2 class="text-3xl font-semibold mb-6" data-aos="fade-up">Blog</h2>
+      <ul class="list-disc pl-5 space-y-2">
+        <li data-aos="fade-right"><a href="blog/blog1.html" class="text-blue-600 hover:underline">How I Built My AI Portfolio</a></li>
+      </ul>
+    </section>
+
+    <section id="about" class="mb-16" data-aos="fade-left">
+      <h2 class="text-3xl font-semibold mb-6">About Me</h2>
+      <p>I’m a Data Scientist with 6+ years of experience, passionate about building AI-driven products and startups.</p>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+      <h2 class="text-3xl font-semibold mb-6">Contact</h2>
+      <p>Email: santhosh@example.com</p>
+      <p>GitHub: github.com/santhosh</p>
+    </section>
+  </main>
+
+  <footer class="text-center py-6 text-sm text-gray-500 border-t dark:border-gray-700">
+    &copy; 2025 Santhosh. All rights reserved.
+  </footer>
+
+  
+<script>
+function toggleDarkMode() {
+  document.documentElement.classList.toggle('dark');
+}
+</script>
+
+</body>
+</html>
