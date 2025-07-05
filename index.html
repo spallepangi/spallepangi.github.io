@@ -7,11 +7,9 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+  <script>AOS.init();</script>
 </head>
-<body class="font-sans transition duration-500 bg-white dark:bg-black">
+<body class="font-sans transition duration-500">
 
   <header class="text-center py-10 bg-gray-100 dark:bg-gray-900 shadow-lg relative">
     <button onclick="toggleDarkMode()" class="absolute top-4 right-4 bg-gray-300 dark:bg-gray-700 px-4 py-2 rounded hover:scale-105 transition">Toggle Dark Mode</button>
@@ -21,17 +19,18 @@
   </header>
 
   <main class="px-6 md:px-20 py-10 space-y-20">
+    
     <section id="projects">
       <h2 class="text-3xl font-semibold mb-6" data-aos="fade-up">Projects</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="border rounded-lg p-4 shadow-lg hover:shadow-2xl transition" data-aos="zoom-in-up">
           <h3 class="text-xl font-bold mb-2">AI Chatbot</h3>
-          <p class="text-sm">Built an AI-powered customer support chatbot using GPT APIs and deployed on web using Flask.</p>
+          <p class="text-sm">Built a customer support chatbot using GPT APIs with a web frontend and Flask backend.</p>
           <a href="#" class="text-blue-500 mt-2 inline-block">View on GitHub</a>
         </div>
         <div class="border rounded-lg p-4 shadow-lg hover:shadow-2xl transition" data-aos="zoom-in-up">
           <h3 class="text-xl font-bold mb-2">Fraud Detection</h3>
-          <p class="text-sm">Used XGBoost and SMOTE for class imbalance on credit card fraud dataset. Achieved 92% F1 score.</p>
+          <p class="text-sm">Developed an XGBoost model on credit card data with SMOTE to solve class imbalance.</p>
           <a href="#" class="text-blue-500 mt-2 inline-block">View on GitHub</a>
         </div>
       </div>
@@ -63,9 +62,9 @@
   </footer>
 
   <script>
-    function toggleDarkMode() {{
+    function toggleDarkMode() {
       document.documentElement.classList.toggle('dark');
-    }}
+    }
   </script>
 </body>
 </html>
