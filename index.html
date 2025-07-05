@@ -1,53 +1,60 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-white text-gray-800 dark:bg-black dark:text-white">
+<html lang="en" class="bg-white text-gray-800 dark:bg-black dark:text-white scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Santhosh | AI & Data Science Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </head>
-<body class="font-sans transition duration-500">
+<body class="font-sans transition duration-500 bg-white dark:bg-black">
 
-  <header class="text-center py-10 bg-gray-100 dark:bg-gray-900 shadow">
-    <button onclick="toggleDarkMode()" class="absolute top-4 right-4 bg-gray-300 dark:bg-gray-700 px-4 py-2 rounded">Toggle Dark Mode</button>
-    <h1 class="text-5xl font-bold">Hi, I'm Santhosh</h1>
-    <p class="text-lg mt-2">AI Engineer | Data Scientist | Startup Enthusiast</p>
+  <header class="text-center py-10 bg-gray-100 dark:bg-gray-900 shadow-lg relative">
+    <button onclick="toggleDarkMode()" class="absolute top-4 right-4 bg-gray-300 dark:bg-gray-700 px-4 py-2 rounded hover:scale-105 transition">Toggle Dark Mode</button>
+    <h1 class="text-5xl font-bold" data-aos="zoom-in">Hi, I'm Santhosh</h1>
+    <p class="text-lg mt-2" data-aos="fade-up">AI Engineer | Data Scientist | Startup Enthusiast</p>
+    <a href="assets/Santhosh_Resume.pdf" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">View Resume</a>
   </header>
 
-  <main class="px-6 md:px-20 py-10">
-    <section id="projects" class="mb-16">
+  <main class="px-6 md:px-20 py-10 space-y-20">
+    <section id="projects">
       <h2 class="text-3xl font-semibold mb-6" data-aos="fade-up">Projects</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div class="border rounded-lg p-4 shadow hover:shadow-lg transition duration-300" data-aos="zoom-in">
-          <h3 class="text-xl font-bold mb-2">Project Title</h3>
-          <p class="text-sm">Short description of the project goes here.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="border rounded-lg p-4 shadow-lg hover:shadow-2xl transition" data-aos="zoom-in-up">
+          <h3 class="text-xl font-bold mb-2">AI Chatbot</h3>
+          <p class="text-sm">Built an AI-powered customer support chatbot using GPT APIs and deployed on web using Flask.</p>
+          <a href="#" class="text-blue-500 mt-2 inline-block">View on GitHub</a>
+        </div>
+        <div class="border rounded-lg p-4 shadow-lg hover:shadow-2xl transition" data-aos="zoom-in-up">
+          <h3 class="text-xl font-bold mb-2">Fraud Detection</h3>
+          <p class="text-sm">Used XGBoost and SMOTE for class imbalance on credit card fraud dataset. Achieved 92% F1 score.</p>
           <a href="#" class="text-blue-500 mt-2 inline-block">View on GitHub</a>
         </div>
       </div>
     </section>
 
-    <section id="blog" class="mb-16">
+    <section id="blog">
       <h2 class="text-3xl font-semibold mb-6" data-aos="fade-up">Blog</h2>
-      <ul class="list-disc pl-5 space-y-2">
-        <li data-aos="fade-right"><a href="blog/blog1.html" class="text-blue-600 hover:underline">How I Built My AI Portfolio</a></li>
+      <ul class="space-y-4">
+        <li data-aos="fade-right">
+          <a href="blog/blog1.html" class="text-blue-600 hover:underline text-lg">How I Built My AI Portfolio Website</a>
+        </li>
       </ul>
     </section>
 
-    <section id="about" class="mb-16" data-aos="fade-left">
+    <section id="about" data-aos="fade-left">
       <h2 class="text-3xl font-semibold mb-6">About Me</h2>
-      <p>I’m a Data Scientist with 6+ years of experience, passionate about building AI-driven products and startups.</p>
+      <p class="text-lg">I’m a Data Scientist with 6+ years of experience building AI/ML systems, passionate about clean design, automation, and helping startups scale using data-driven decisions.</p>
     </section>
 
     <section id="contact" data-aos="fade-up">
       <h2 class="text-3xl font-semibold mb-6">Contact</h2>
       <p>Email: santhosh@example.com</p>
-      <p>GitHub: github.com/santhosh</p>
+      <p>GitHub: <a href="https://github.com/spallepangi" target="_blank" class="text-blue-400 hover:underline">spallepangi</a></p>
     </section>
   </main>
 
@@ -55,12 +62,10 @@
     &copy; 2025 Santhosh. All rights reserved.
   </footer>
 
-  
-<script>
-function toggleDarkMode() {
-  document.documentElement.classList.toggle('dark');
-}
-</script>
-
+  <script>
+    function toggleDarkMode() {{
+      document.documentElement.classList.toggle('dark');
+    }}
+  </script>
 </body>
 </html>
