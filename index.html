@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Santhosh | AI & Data Science Portfolio</title>
+  <title>Santhosh Pallepangi | AI & Data Science Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -12,135 +12,106 @@
 <body class="bg-zinc-900 text-white font-sans">
 
   <nav class="fixed top-0 left-0 w-full z-50 bg-zinc-950 shadow-sm backdrop-blur bg-opacity-80">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-xl font-semibold text-white">Santhosh</h1>
-      <ul class="flex space-x-6 text-sm text-zinc-300">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-lg font-semibold text-white">Santhosh Pallepangi</h1>
+      <ul class="flex flex-wrap gap-4 text-sm text-zinc-300">
+        <li><a href="#home" class="hover:text-white">Home</a></li>
         <li><a href="#projects" class="hover:text-white">Projects</a></li>
         <li><a href="#about" class="hover:text-white">About</a></li>
+        <li><a href="#education" class="hover:text-white">Education</a></li>
+        <li><a href="#experience" class="hover:text-white">Experience</a></li>
         <li><a href="#contact" class="hover:text-white">Contact</a></li>
         <li><a href="assets/Santhosh_Resume.pdf" class="text-blue-400 hover:underline">Resume</a></li>
       </ul>
     </div>
   </nav>
 
-  <section class="h-screen flex flex-col justify-center items-center text-center px-6 pt-20">
-    <h1 class="text-4xl md:text-5xl font-extrabold mb-4" data-aos="fade-up">Hi, I'm Santhosh Pallepangi</h1>
-    <p class="text-lg text-zinc-400 max-w-2xl mb-6" data-aos="fade-up" data-aos-delay="100">
-      Senior Data Analyst & AI Engineer with 6+ years of experience building machine learning systems, dashboards, and end-to-end analytics solutions.
-    </p>
-    <a href="#projects" class="bg-blue-600 hover:bg-blue-700 transition text-white font-medium px-6 py-3 rounded-full text-sm" data-aos="fade-up" data-aos-delay="200">View Projects</a>
-  </section>
+  <main class="max-w-5xl mx-auto px-6 py-28 space-y-20">
 
-  
-<main class="max-w-5xl mx-auto px-6 space-y-24 py-20">
-
-  <section id="home">
-    <h2 class="text-3xl font-bold mb-4 border-b border-zinc-700 pb-2">Home</h2>
-    <p class="text-zinc-300 text-sm leading-relaxed max-w-3xl">
-      Welcome to my personal portfolio! I'm Santhosh Pallepangi, a passionate Data Analyst and AI Engineer with over 6 years of experience driving analytics solutions across public and private sectors. I specialize in building predictive models, automated dashboards, and scalable data pipelines using modern cloud and machine learning tools.
-    </p>
-  </section>
-
+    <section id="home" class="text-center" data-aos="fade-up">
+      <h1 class="text-4xl font-bold mb-3">Hi, I'm Santhosh Pallepangi</h1>
+      <p class="text-zinc-400 text-sm max-w-2xl mx-auto leading-relaxed">
+        Senior Data Analyst & AI Engineer with 6+ years of experience building machine learning systems, real-time dashboards,
+        and ETL pipelines across public and private sectors. Passionate about solving real-world problems with data and scalable architecture.
+      </p>
+    </section>
 
     <section id="projects">
-      <h2 class="text-3xl font-bold mb-8 border-b border-zinc-700 pb-2">Projects</h2>
-      <div class="grid md:grid-cols-2 gap-8">
-
-        <div class="bg-zinc-800 p-6 rounded-xl shadow" data-aos="fade-up">
-          <h3 class="text-xl font-semibold mb-2">Inmate Misconduct Prediction</h3>
-          <p class="text-zinc-300 text-sm mb-4">Used XGBoost and decision trees on inmate data to identify predictors of misconduct, aiding staffing and classification.</p>
-          <a href="https://github.com/spallepangi/inmate-misconduct-prediction" target="_blank" class="inline-flex items-center gap-2 text-blue-400 hover:underline text-sm">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="w-4 h-4" alt="GitHub"> View on GitHub
+      <h2 class="text-2xl font-bold mb-6 border-b border-zinc-700 pb-2">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-zinc-800 p-5 rounded-lg shadow" data-aos="fade-up">
+          <h3 class="font-semibold mb-1">Inmate Misconduct Prediction</h3>
+          <p class="text-sm text-zinc-300 mb-3">Built XGBoost model to classify inmates by risk. Improved operational classification using historical behavior data.</p>
+          <a href="https://github.com/spallepangi/inmate-misconduct-prediction" target="_blank" class="text-blue-400 text-sm hover:underline flex items-center gap-1">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="w-4 h-4"> View on GitHub
           </a>
         </div>
-
-        <div class="bg-zinc-800 p-6 rounded-xl shadow" data-aos="fade-up" data-aos-delay="100">
-          <h3 class="text-xl font-semibold mb-2">Workforce Trends Dashboard</h3>
-          <p class="text-zinc-300 text-sm mb-4">Built ML models and dashboards to identify workforce patterns across education departments. Results influenced $10M in funding.</p>
-          <a href="https://github.com/spallepangi/workforce-trends-dashboard" target="_blank" class="inline-flex items-center gap-2 text-blue-400 hover:underline text-sm">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="w-4 h-4" alt="GitHub"> View on GitHub
+        <div class="bg-zinc-800 p-5 rounded-lg shadow" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="font-semibold mb-1">Workforce Trends Dashboard</h3>
+          <p class="text-sm text-zinc-300 mb-3">Analyzed education-job trends and built dashboards to inform $10M state-level decisions. Automated via PySpark pipelines.</p>
+          <a href="https://github.com/spallepangi/workforce-trends-dashboard" target="_blank" class="text-blue-400 text-sm hover:underline flex items-center gap-1">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="w-4 h-4"> View on GitHub
           </a>
         </div>
-
       </div>
     </section>
 
     <section id="about">
-      <h2 class="text-3xl font-bold mb-4 border-b border-zinc-700 pb-2">About Me</h2>
-      <p class="text-zinc-300 max-w-3xl text-sm leading-relaxed">
-        I'm a data-driven problem solver with a passion for building scalable analytics solutions.
-        My background spans government, healthcare, and ed-tech sectors, delivering actionable dashboards, predictive models, and data pipelines that improve decision-making.
-        I'm proficient with SQL, Python, Tableau, Databricks, and cloud tools like AWS/GCP.
+      <h2 class="text-2xl font-bold mb-4 border-b border-zinc-700 pb-2">About</h2>
+      <p class="text-sm text-zinc-300 leading-relaxed">
+        I specialize in translating messy data into meaningful insights. From SQL-powered dashboards to ML classification models,
+        I help organizations make evidence-based decisions. Tools I love: Python, SQL, Tableau, Databricks, and AWS.
       </p>
     </section>
 
+    <section id="education">
+      <h2 class="text-2xl font-bold mb-4 border-b border-zinc-700 pb-2">Education</h2>
+      <ul class="text-sm text-zinc-300 space-y-2">
+        <li><strong class="text-white">University of Missouri</strong>, MS in Data Science & Analytics <span class="text-zinc-400">— May 2023</span></li>
+        <li><strong class="text-white">NIT Calicut</strong>, BTech in Computer Science <span class="text-zinc-400">— May 2018</span></li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2 class="text-2xl font-bold mb-4 border-b border-zinc-700 pb-2">Experience</h2>
+      <div class="space-y-4 text-sm text-zinc-300">
+        <div>
+          <p><strong class="text-white">State of Missouri - Dept. of Corrections</strong> <span class="text-zinc-400">| Dec 2024 – Present</span></p>
+          <ul class="list-disc list-inside ml-4">
+            <li>Built dashboards for tracking inmate rehabilitation</li>
+            <li>Created clustering models and supervised risk classifiers</li>
+          </ul>
+        </div>
+        <div>
+          <p><strong class="text-white">Dept. of Higher Education, MO</strong> <span class="text-zinc-400">| Oct 2023 – Jun 2024</span></p>
+          <ul class="list-disc list-inside ml-4">
+            <li>Developed ML dashboards for graduate program trends</li>
+            <li>Managed PySpark pipelines and cloud databases</li>
+          </ul>
+        </div>
+        <div>
+          <p><strong class="text-white">Y Point Analytics, India</strong> <span class="text-zinc-400">| May 2018 – Jul 2021</span></p>
+          <ul class="list-disc list-inside ml-4">
+            <li>Built Oracle DWHs & migrated ETLs to Databricks</li>
+            <li>Led dashboard experiments to improve user engagement</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <section id="contact">
-      <h2 class="text-3xl font-bold mb-4 border-b border-zinc-700 pb-2">Contact</h2>
+      <h2 class="text-2xl font-bold mb-4 border-b border-zinc-700 pb-2">Contact</h2>
       <ul class="text-sm text-zinc-300 space-y-1">
         <li>Email: <a href="mailto:palle.santhoshk@gmail.com" class="text-blue-400 hover:underline">palle.santhoshk@gmail.com</a></li>
         <li>GitHub: <a href="https://github.com/spallepangi" class="text-blue-400 hover:underline">spallepangi</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/santhoshpallepangi/" class="text-blue-400 hover:underline">linkedin.com/in/santhoshpallepangi</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/santhoshpallepangi/" class="text-blue-400 hover:underline">santhoshpallepangi</a></li>
       </ul>
     </section>
-  
-  <section id="education">
-    <h2 class="text-3xl font-bold mb-4 border-b border-zinc-700 pb-2">Education</h2>
-    <ul class="text-sm text-zinc-300 space-y-4">
-      <li>
-        <p class="font-semibold text-white">University of Missouri, Columbia, MO <span class="text-zinc-400">— May 2023</span></p>
-        <p>Master of Science in Data Science and Analytics</p>
-      </li>
-      <li>
-        <p class="font-semibold text-white">National Institute of Technology, Calicut, India <span class="text-zinc-400">— May 2018</span></p>
-        <p>Bachelor of Technology in Computer Science and Engineering</p>
-      </li>
-    </ul>
-  </section>
+  </main>
 
-  <section id="experience">
-    <h2 class="text-3xl font-bold mb-4 border-b border-zinc-700 pb-2">Experience</h2>
-    <div class="space-y-6 text-sm text-zinc-300">
-
-      <div>
-        <p class="font-semibold text-white">State of Missouri - Department of Corrections <span class="text-zinc-400">| Dec 2024 - Present</span></p>
-        <ul class="list-disc list-inside ml-4 mt-2 space-y-1">
-          <li>Built dashboards with SQL, Tableau & Python for inmate rehabilitation tracking, improving efficiency by 25%.</li>
-          <li>Created A/B testing framework to evaluate program effectiveness, improving outcomes by 15%.</li>
-          <li>Enhanced classification using K-means clustering and supervised learning (XGBoost).</li>
-        </ul>
-      </div>
-
-      <div>
-        <p class="font-semibold text-white">Department of Higher Education and Workforce Development <span class="text-zinc-400">| Oct 2023 – Jun 2024</span></p>
-        <ul class="list-disc list-inside ml-4 mt-2 space-y-1">
-          <li>Developed predictive models for workforce trends influencing $10M in funding decisions.</li>
-          <li>Automated ETL pipelines using PySpark + SQL, reducing manual effort by 30%.</li>
-          <li>Created dashboards for 200+ graduate programs to optimize operations and equity.</li>
-        </ul>
-      </div>
-
-      <div>
-        <p class="font-semibold text-white">Y Point Analytics, Hyderabad, India <span class="text-zinc-400">| May 2018 – Jul 2021</span></p>
-        <ul class="list-disc list-inside ml-4 mt-2 space-y-1">
-          <li>Led data warehouse design for pharmaceutical client, enabling real-time reporting.</li>
-          <li>Migrated 1,000+ ETL jobs to Databricks; improved processing by 50%.</li>
-          <li>Ran A/B testing for dashboard features, increasing user engagement by 20%.</li>
-        </ul>
-      </div>
-
-    </div>
-  </section>
-</main>
-
-
-  <footer class="text-center text-xs text-zinc-500 py-6 border-t border-zinc-800">
+  <footer class="text-center text-xs text-zinc-500 py-4 border-t border-zinc-800">
     &copy; 2025 Santhosh Pallepangi
   </footer>
 
-  <script>
-    function toggleDarkMode() {
-      document.documentElement.classList.toggle('dark');
-    }
-  </script>
 </body>
 </html>
