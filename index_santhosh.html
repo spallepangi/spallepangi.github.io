@@ -9,10 +9,10 @@
   <link href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" rel="stylesheet">
 
   <!--==================== SWIPER CSS ====================-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"/>
 
-  <!--==================== CSS ====================-->
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <!--==================== MAIN CSS ====================-->
+  <link rel="stylesheet" href="assets/css/styles.css"/>
 </head>
 <body>
   <!--==================== HEADER ====================-->
@@ -35,18 +35,20 @@
   <!--==================== MAIN ====================-->
   <main class="main">
     <section class="home section" id="home">
-      <h1>Hi, I'm Santhosh Pallepangi</h1>
-      <p>Senior Data Analyst & AI Engineer with 6+ years of experience.</p>
+      <h1 class="home__title">Hi, I'm Santhosh Pallepangi</h1>
+      <p class="home__subtitle">Senior Data Analyst & AI Engineer with 6+ years of experience.</p>
     </section>
 
     <section class="about section" id="about">
-      <h2>About Me</h2>
-      <p>I specialize in building machine learning systems, dashboards, and ETL pipelines. Tools I love: Python, SQL, Tableau, Databricks, AWS.</p>
+      <h2 class="section__title">About Me</h2>
+      <p class="about__description">
+        I specialize in building machine learning systems, dashboards, and ETL pipelines. Tools I love: Python, SQL, Tableau, Databricks, AWS.
+      </p>
     </section>
 
     <section class="skills section" id="skills">
-      <h2>Skills</h2>
-      <ul>
+      <h2 class="section__title">Skills</h2>
+      <ul class="skills__list">
         <li>Python, SQL, R, SAS</li>
         <li>Tableau, Power BI, Excel</li>
         <li>AWS, GCP, Databricks</li>
@@ -55,37 +57,39 @@
     </section>
 
     <section class="qualification section" id="qualification">
-      <h2>Education & Experience</h2>
-      <p><strong>University of Missouri</strong> - MS Data Science, 2023</p>
-      <p><strong>NIT Calicut</strong> - BTech CS, 2018</p>
-      <p><strong>Dept. of Corrections, MO</strong> - Data Analyst (2024-Present)</p>
-      <p><strong>Dept. of Education, MO</strong> - Analyst (2023-2024)</p>
-      <p><strong>Y Point Analytics</strong> - Analyst (2018-2021)</p>
+      <h2 class="section__title">Education & Experience</h2>
+      <div class="qualification__content">
+        <p><strong>University of Missouri</strong> - MS Data Science, 2023</p>
+        <p><strong>NIT Calicut</strong> - BTech CS, 2018</p>
+        <p><strong>Dept. of Corrections, MO</strong> - Data Analyst (2024-Present)</p>
+        <p><strong>Dept. of Education, MO</strong> - Analyst (2023-2024)</p>
+        <p><strong>Y Point Analytics</strong> - Analyst (2018-2021)</p>
+      </div>
     </section>
 
     <section class="portfolio section" id="portfolio">
-      <h2>Projects</h2>
-      <ul>
-        <li><a href="https://github.com/spallepangi/inmate-misconduct-prediction" target="_blank">Inmate Misconduct Prediction</a></li>
-        <li><a href="https://github.com/spallepangi/workforce-trends-dashboard" target="_blank">Workforce Trends Dashboard</a></li>
-      </ul>
+      <h2 class="section__title">Projects</h2>
+      <div class="portfolio__items">
+        <a href="https://github.com/spallepangi/inmate-misconduct-prediction" target="_blank" class="portfolio__link">Inmate Misconduct Prediction</a><br/>
+        <a href="https://github.com/spallepangi/workforce-trends-dashboard" target="_blank" class="portfolio__link">Workforce Trends Dashboard</a>
+      </div>
     </section>
 
     <section class="contact section" id="contact">
-      <h2>Contact Me</h2>
-      <p>Email: palle.santhoshk@gmail.com</p>
-      <p>GitHub: github.com/spallepangi</p>
-      <p>LinkedIn: linkedin.com/in/santhoshpallepangi</p>
+      <h2 class="section__title">Contact Me</h2>
+      <p>Email: <a href="mailto:palle.santhoshk@gmail.com">palle.santhoshk@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/spallepangi">github.com/spallepangi</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/santhoshpallepangi/">linkedin.com/in/santhoshpallepangi</a></p>
     </section>
   </main>
 
   <!--==================== FOOTER ====================-->
   <footer class="footer">
-    <p>&copy; 2025 Santhosh Pallepangi</p>
+    <p class="footer__copy">&copy; 2025 Santhosh Pallepangi</p>
   </footer>
 
   <!--==================== SWIPER JS ====================-->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
 
   <!--==================== MAIN JS ====================-->
   <script src="assets/js/main.js"></script>
